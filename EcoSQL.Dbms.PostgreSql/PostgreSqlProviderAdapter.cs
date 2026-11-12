@@ -1,5 +1,4 @@
-﻿using EcoSQL.Request;
-using Npgsql;
+﻿using Npgsql;
 using System.Data.Common;
 
 namespace EcoSQL.Dbms.PostgreSql;
