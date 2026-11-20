@@ -3,3 +3,4 @@
 .vs/
 *.user
 *.suo
+/EcoSQL.Dbms.PostgreSql/Properties/PublishProfiles/FolderProfile.pubxml
