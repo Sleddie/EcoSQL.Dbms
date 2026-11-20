@@ -6,12 +6,27 @@
     <Nullable>enable</Nullable>
     <Version>0.1</Version>
     <Authors>Sleddie</Authors>
-    <Company>Blue-Yellow</Company>
+    <Copyright>Copyright (c) 2026 Sleddie</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/Sleddie/EcoSQL.Dbms</RepositoryUrl>
+    <PackageReleaseNotes># v0.1
+Aggregates DBMS provider adapters</PackageReleaseNotes>
+    <PackageTags>sql;database management system;db provider;net-10</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\EcoSQL.Dbms.MsSqlServer\EcoSQL.Dbms.MsSqlServer.csproj" />
     <ProjectReference Include="..\EcoSQL.Dbms.PostgreSql\EcoSQL.Dbms.PostgreSql.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

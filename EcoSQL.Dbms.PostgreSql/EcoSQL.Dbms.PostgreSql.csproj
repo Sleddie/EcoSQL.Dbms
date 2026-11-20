@@ -6,22 +6,16 @@
     <Nullable>enable</Nullable>
     <Version>0.1</Version>
     <Authors>Sleddie</Authors>
-    <Company>Blue-Yellow</Company>
-    <Copyright>2026 Blue-Yellow</Copyright>
-    <RepositoryUrl>https://github.com/Sleddie/EcoSQL.Dbms</RepositoryUrl>
+    <Copyright>Copyright (c) 2026 Sleddie</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageReleaseNotes># v0.1
-DBMS provider adapter to get PostgreSQL provider factory</PackageReleaseNotes>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/Sleddie/EcoSQL.Dbms</RepositoryUrl>
+    <PackageReleaseNotes># v0.1
+DBMS provider adapter to get PostgreSQL provider factory</PackageReleaseNotes>
+    <PackageTags>sql;database management system;db provider;postgresql;net-10</PackageTags>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Include="..\README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Npgsql" Version="10.0.3" />
@@ -29,6 +23,13 @@ DBMS provider adapter to get PostgreSQL provider factory</PackageReleaseNotes>
 
   <ItemGroup>
     <ProjectReference Include="..\..\EcoSQL.Connect\EcoSQL.Connect.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
