@@ -1,4 +1,3 @@
 # EcoSQL.Dbms.PostgreSql
 
-* to get Npgsql DbProviderFactory
-
+- to get Npgsql DbProviderFactory

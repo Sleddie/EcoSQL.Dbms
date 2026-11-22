@@ -1,3 +1,3 @@
 # EcoSQL.Dbms.MsSqlServer
 
-* to get Microsoft.Data.SqlClient DbProviderFactory
+- to get Microsoft.Data.SqlClient DbProviderFactory
