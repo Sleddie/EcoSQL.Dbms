@@ -18,8 +18,7 @@ DBMS provider adapter to get MS SQL Server provider factory</PackageReleaseNotes
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.2" />
-    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="10.0.15" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
