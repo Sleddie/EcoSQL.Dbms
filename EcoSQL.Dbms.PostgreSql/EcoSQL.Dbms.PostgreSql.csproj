@@ -18,7 +18,7 @@ DBMS provider adapter to get PostgreSQL provider factory</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Npgsql" Version="10.0.3" />
+    <PackageReference Include="Npgsql" Version="11.0.0" />
   </ItemGroup>
 
   <ItemGroup>
